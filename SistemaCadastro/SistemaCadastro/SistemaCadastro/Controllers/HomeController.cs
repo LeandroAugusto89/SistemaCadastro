@@ -6,16 +6,13 @@ namespace SistemaCadastro.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
 
         public IActionResult Index()
         {
-            return View();
+            HomeModel home = new HomeModel();
+            home.Nome = "Leandro Augusto";
+            home.Email = "leandroaugusto89@yahoo.com.br";
+            return View(home);
         }
 
         public IActionResult Privacy()
