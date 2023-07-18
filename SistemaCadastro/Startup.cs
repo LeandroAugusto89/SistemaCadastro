@@ -1,9 +1,9 @@
 ﻿
-using Microsoft.EntityFrameworkCore;
 using SistemaCadastro.Data;
+using Microsoft.EntityFrameworkCore;
 using SistemaCadastro.Repositorio;
 
-namespace ControleDeContatos
+namespace SistemaCadastro
 {
     public class Startup
     {
@@ -20,7 +20,7 @@ namespace ControleDeContatos
             services.AddControllersWithViews();
             //Configurando Entity Framework para conectar com Sql server
             services.AddEntityFrameworkSqlServer()
-                .AddDbContext<BDContext>(o => o.UseSqlServer(Configuration.GetConnectionString("Data Source=LAPTOP-MFTL06NT;Initial Catalog=SistemaCadastro;Integrated Security=False;User ID=sa;Password=Latl3742;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False")));
+                .AddDbContext<BancoContext>(o => o.UseSqlServer(Configuration.GetConnectionString("Data Source=LAPTOP-MFTL06NT;Initial Catalog=SistemaCadastro;Integrated Security=False;User ID=sa;Password=Latl3742;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False")));
 
             services.AddScoped<IContatoRepositorio, ContatoRepositorio>();
         }

@@ -336,3 +336,14 @@ C:\Users\leand\OneDrive\Área de Trabalho\SistemaCadastro\obj\Debug\net6.0\refin
 C:\Users\leand\OneDrive\Área de Trabalho\SistemaCadastro\obj\Debug\net6.0\SistemaCadastro.pdb
 C:\Users\leand\OneDrive\Área de Trabalho\SistemaCadastro\obj\Debug\net6.0\SistemaCadastro.genruntimeconfig.cache
 C:\Users\leand\OneDrive\Área de Trabalho\SistemaCadastro\obj\Debug\net6.0\ref\SistemaCadastro.dll
+C:\Users\leand\OneDrive\Área de Trabalho\GitHub\SistemaCadastro\obj\Debug\net6.0\SistemaCadastro.csproj.AssemblyReference.cache
+C:\Users\leand\OneDrive\Área de Trabalho\GitHub\SistemaCadastro\obj\Debug\net6.0\SistemaCadastro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leand\OneDrive\Área de Trabalho\GitHub\SistemaCadastro\obj\Debug\net6.0\SistemaCadastro.AssemblyInfoInputs.cache
+C:\Users\leand\OneDrive\Área de Trabalho\GitHub\SistemaCadastro\obj\Debug\net6.0\SistemaCadastro.AssemblyInfo.cs
+C:\Users\leand\OneDrive\Área de Trabalho\GitHub\SistemaCadastro\obj\Debug\net6.0\SistemaCadastro.csproj.CoreCompileInputs.cache
+C:\Users\leand\OneDrive\Área de Trabalho\GitHub\SistemaCadastro\obj\Debug\net6.0\SistemaCadastro.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\leand\OneDrive\Área de Trabalho\GitHub\SistemaCadastro\obj\Debug\net6.0\SistemaCadastro.RazorAssemblyInfo.cache
+C:\Users\leand\OneDrive\Área de Trabalho\GitHub\SistemaCadastro\obj\Debug\net6.0\SistemaCadastro.RazorAssemblyInfo.cs
+C:\Users\leand\OneDrive\Área de Trabalho\GitHub\SistemaCadastro\obj\Debug\net6.0\SistemaCadastro.dll
+C:\Users\leand\OneDrive\Área de Trabalho\GitHub\SistemaCadastro\obj\Debug\net6.0\refint\SistemaCadastro.dll
+C:\Users\leand\OneDrive\Área de Trabalho\GitHub\SistemaCadastro\obj\Debug\net6.0\SistemaCadastro.pdb

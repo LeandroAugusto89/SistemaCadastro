@@ -1,4 +1,4 @@
-namespace ControleDeContatos
+namespace SistemaCadastro
 {
     public class Program
     {
