@@ -10,7 +10,7 @@ using SistemaCadastro.Data;
 
 namespace SistemaCadastro.Migrations
 {
-    [DbContext(typeof(BDContext))]
+    [DbContext(typeof(BancoContext))]
     [Migration("20230717010410_CriandoBD")]
     partial class CriandoBD
     {

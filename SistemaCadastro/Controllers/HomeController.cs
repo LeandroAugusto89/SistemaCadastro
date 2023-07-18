@@ -1,19 +1,20 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using SistemaCadastro.Models;
-using SistemaCadastro.Repositorio;
+﻿using SistemaCadastro.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
 using System.Diagnostics;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace SistemaCadastro.Controllers
+namespace ControleDeContatos.Controllers
 {
     public class HomeController : Controller
     {
 
         public IActionResult Index()
         {
-            HomeModel home = new HomeModel();
-            home.Nome = "Leandro Augusto";
-            home.Email = "leandroaugusto89@yahoo.com.br";
-            return View(home);
+            return View();
         }
 
         public IActionResult Privacy()
@@ -26,6 +27,5 @@ namespace SistemaCadastro.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-
     }
 }

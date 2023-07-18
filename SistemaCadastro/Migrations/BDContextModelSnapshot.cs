@@ -9,7 +9,7 @@ using SistemaCadastro.Data;
 
 namespace SistemaCadastro.Migrations
 {
-    [DbContext(typeof(BDContext))]
+    [DbContext(typeof(BancoContext))]
     partial class BDContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
